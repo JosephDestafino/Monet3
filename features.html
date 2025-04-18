@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ombre</title>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- FAVICON -->
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- CSS FILES -->
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/fakeloader.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animations.css" rel="stylesheet" type="text/css">
+    <link href="css/tooltipster.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/colors.css" rel="stylesheet" type="text/css">
+    <link href="css/media.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+       <script type="text/javascript" src="js/html5.js"></script>
+    <![endif]-->
+    <!-- NOSCRIPT -->
+    <noscript>
+        <link href="css/nojs.css" rel="stylesheet" type="text/css">
+    </noscript>
+</head>
+
+<body>
+    <!-- FAKE LOADER -->
+    <div id="fakeloader"></div>
+    <!-- SEMI TRANSPARENT DARK BG COLOR -->
+    <div id="bg-transparent"></div>
+    <!-- MAIN CONTAINER -->
+    <div id="main-container">
+        <!-- HEADER -->
+        <header id="header">
+            <div id="header-top">
+                <!-- LOGO -->
+                <div id="header-logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="" />
+                    </a>
+                </div>
+                <!-- SOCIAL ICONS -->
+                <div id="header-icons">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#" class="fa fa-facebook-f tooltip-header" title="Facebook">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#" class="fa fa-twitter tooltip-header" title="Twitter">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#" class="fa fa-google-plus tooltip-header" title="Google Plus">Google</a>
+                        </li>
+                        <li>
+                            <a href="#" class="fa fa-instagram tooltip-header" title="Instagram">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#" class="fa fa-vimeo tooltip-header" title="Vimeo">Vimeo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="header-menu">
+                <!-- MOBILE MENU ICON -->
+                <a class="toggleMenu" href="#">MENU</a>
+                <!-- MAIN MENU -->
+                <nav>
+                    <ul class="nav">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Pages</a>
+                            <ul>
+                                <li>
+                                    <a href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="features.html">Other Features</a>
+                                </li>
+                                <li>
+                                    <a href="layout.html">Layout</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dropdown</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Item 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Item 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Item 3</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Item 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Models</a>
+                            <ul>
+                                <li>
+                                    <a href="models-2-columns.html">Models - 2 Columns</a>
+                                </li>
+                                <li>
+                                    <a href="models-3-columns.html">Models - 3 Columns</a>
+                                </li>
+                                <li>
+                                    <a href="single-model.html">Single Model 1</a>
+                                </li>
+                                <li>
+                                    <a href="single-model2.html">Single Model 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Galleries</a>
+                            <ul>
+                                <li>
+                                    <a href="gallery-2-columns.html">Galleries - 2 Columns</a>
+                                </li>
+                                <li>
+                                    <a href="gallery-3-columns.html">Galleries - 3 Columns</a>
+                                </li>
+                                <li>
+                                    <a href="gallery-4-columns.html">Galleries - 4 Columns</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">Blog</a>
+                            <ul>
+                                <li>
+                                    <a href="blog.html">Blog - Sidebar</a>
+                                </li>
+                                <li>
+                                    <a href="blog-masonry.html">Blog - Masonry</a>
+                                </li>
+                                <li>
+                                    <a href="single-post.html">Single Post</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- MAIN -->
+        <main id="main">
+            <!-- FEATURED IMAGE -->
+            <div id="featured-image-container">
+                <!-- LOADER -->
+                <div class="img-loading"></div>
+                <div id="featured-image">
+                    <div id="featured-image-title">
+                        <h1>Features</h1>
+                        <p><span>This page has a header image...</span></p>
+                    </div>
+                </div>
+            </div>
+            <!-- PAGE CONTAINER -->
+            <div id="page-container">
+                <!-- GRID -->
+                <div class="grid">
+                    <div class="unit one-third">
+                        <!-- ICON -->
+                        <div class="icon-container">
+                            <a href="#" class="fa fa-bomb"></a>
+                        </div>
+                        <!-- ICON TEXT-->
+                        <div class="icon-text">
+                            <h4>Center</h4>
+                            <p>Ane nulla eram lorem. Summis quo sed legam probant, ab cillum dolor nulla doctrina. Iis dolore officia. Ita ita varias quibusdam, hic offendit praesentibus, ad eram aut magna.</p>
+                        </div>
+                    </div>
+                    <div class="unit one-third">
+                        <!-- ICON -->
+                        <div class="icon-container">
+                            <a href="#" class="fa fa-bullhorn"></a>
+                        </div>
+                        <!-- ICON TEXT-->
+                        <div class="icon-text">
+                            <h4>Center</h4>
+                            <p>Voluptate illum dolor ita ipsum, quid deserunt singulis, labore admodum itamultos malis ea nam nam tamen foreamet. Vidisse quid incurreret ut ut labore possumus.</p>
+                        </div>
+                    </div>
+                    <div class="unit one-third">
+                        <!-- ICON -->
+                        <div class="icon-container">
+                            <a href="#" class="fa fa-star"></a>
+                        </div>
+                        <!-- ICON TEXT -->
+                        <div class="icon-text">
+                            <h4>Center</h4>
+                            <p>Legam e officia ita nae nam varias, admodum ea illum officia, nisi pariatur id doloreirure, est proident se probant, et lorem appellat possumus appellat.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- GRID BORDER -->
+                <div class="grid-border"></div>
+                <!-- GRID -->
+                <div class="grid">
+                    <div class="unit half">
+                        <div class="icon-right">
+                            <!-- ICON -->
+                            <div class="icon-container">
+                                <a href="#" class="fa fa-cloud"></a>
+                            </div>
+                            <!-- ICON TEXT-->
+                            <div class="icon-text">
+                                <h5>Right</h5>
+                                <p>Te summis mentitum ullamco, aliqua nam officia do nescius dolor quem an ipsum,eu quorum laborum philosophari. Sint est ubi aliqua cernantur nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit half">
+                        <div class="icon-left">
+                            <!-- ICON -->
+                            <div class="icon-container">
+                                <a href="#" class="fa fa-comments"></a>
+                            </div>
+                            <!-- ICON TEXT -->
+                            <div class="icon-text">
+                                <h5>Left</h5>
+                                <p>Officia exercitation do nescius. Est nam legam sint duis. Cernantur quis iudicem ingeniis, sint hic mandaremus. Hic summis dolore e quibusdam, commodo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- GRID -->
+                <div class="grid">
+                    <div class="unit half">
+                        <div class="icon-right">
+                            <!-- ICON -->
+                            <div class="icon-container">
+                                <a href="#" class="fa fa-flag"></a>
+                            </div>
+                            <!-- ICON TEXT-->
+                            <div class="icon-text">
+                                <h5>Right</h5>
+                                <p>Voluptate illum dolor ita ipsum, quid deserunt singulis, labore admodum itamultos malis ea nam nam tamen foreamet. Vidisse quid incurreret ut ut labore possumus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit half">
+                        <div class="icon-left">
+                            <!-- ICON -->
+                            <div class="icon-container">
+                                <a href="#" class="fa fa-microphone"></a>
+                            </div>
+                            <!-- ICON TEXT -->
+                            <div class="icon-text">
+                                <h5>Left</h5>
+                                <p>Legam e officia ita nae nam varias, admodum ea illum officia, nisi pariatur id doloreirure, est proident se probant, et lorem appellat possumus appellat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- GRID HERO -->
+                <div class="grid hero">
+                    <div class="unit whole">
+                        <h1>Grid Hero</h1>
+                        <p>Litteris efflorescere ab aliquip qui do do ipsum possumus</p>
+                    </div>
+                </div>
+                <!-- GRID -->
+                <div class="grid">
+                    <div class="unit whole">
+                        <!-- VERTICAL TABS-->
+                        <div id="verticalTab">
+                            <!-- TAB TITLES -->
+                            <ul class="resp-tabs-list">
+                                <li>Tab 1</li>
+                                <li>Tab 2</li>
+                                <li>Tab 3</li>
+                            </ul>
+                            <div class="resp-tabs-container">
+                                <!-- TAB 1 -->
+                                <div>
+                                    <h4>Vertical Tabs</h4>
+                                    <p>Sint nostrud proident, iudicem aliqua mentitum officia do non culpa fabulas, de quorum minim a cupidatat. Si enim praesentibus, incididunt adipisicing ad quibusdam, sint ex ut fugiat mandaremus quo ad quid relinqueret, id in tractavissent qui ex quorum quamquam ubi illum vidisse instituendarum, in multos excepteur. Ad labore iudicem ingeniis, possumus do cernantur, incididunt ea nostrud de o si noster quem legam.Eram laborum philosophari si commodo eram cernantur.</p>
+                                </div>
+                                <!-- TAB 2 -->
+                                <div>
+                                    <h4>Eram laborum philosophari</h4>
+                                    <p>Sint mentitum ita eram lorem, nescius esse laborum se aute litteris illustriora, velit fabulas e consequat ut eu quid quamquam firmissimum, varias mentitum imitarentur, deserunt dolore summis cernantur velit de magna an eiusmod do sint. Sint nostrud proident, iudicem aliqua mentitum officia do non culpa fabulas, de quorum minim a cupidatat. Si enim praesentibus, incididunt adipisicing ad quibusdam, sint ex ut fugiat mandaremus quo ad quid relinqueret, id in.</p>
+                                </div>
+                                <!-- TAB 3 -->
+                                <div>
+                                    <h4>Ubi illum vidisse</h4>
+                                    <p>Eram laborum philosophari si commodo eram cernantur. Expetendis a nisi quo ea laboris eruditionem. Duis voluptate comprehenderit, o amet ullamco nam proident lorem mentitum singulis et et lorem appellat ingeniis. Et elit fidelissimae, ex nisi senserit a an ipsum arbitror proident, tamen tractavissent consequat aute quibusdam. Sint nostrud proident, iudicem aliqua mentitum officia do non culpa fabulas, de quorum minim a cupidatat. Si enim praesentibus, incididunt.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <!-- GRID BORDER -->
+                <div class="grid-border"></div>
+                <!-- GRID -->
+                <div class="grid">
+                    <div class="unit half">
+                        <!-- HORIZONTAL TABS -->
+                        <div id="horizontalTab">
+                            <!-- TAB TITLES -->
+                            <ul class="resp-tabs-list">
+                                <li>Tab 1</li>
+                                <li>Tab 2</li>
+                                <li>Tab 3</li>
+                            </ul>
+                            <div class="resp-tabs-container">
+                                <!-- TAB 1 -->
+                                <div>
+                                    <h4>Horizontal Tabs</h4>
+                                    <p>Sint nostrud proident, iudicem aliqua mentitum officia do non culpa fabulas, de quorum minim a cupidatat. Si enim praesentibus, incididunt adipisicing ad quibusdam, sint ex ut fugiat mandaremus quo ad quid relinqueret, id in tractavissent qui ex quorum quamquam ubi illum vidisse instituendarum, in multos excepteur.</p>
+                                </div>
+                                <!-- TAB 2 -->
+                                <div>
+                                    <h4>Eram laborum</h4>
+                                    <p>Sint mentitum ita eram lorem, nescius esse laborum se aute litteris illustriora, velit fabulas e consequat ut eu quid quamquam firmissimum, varias mentitum imitarentur, deserunt dolore summis cernantur velit de magna an eiusmod do sint.Sint nostrud proident, iudicem aliqua mentitum officia do non culpa fabulas, de quorum minim.</p>
+                                </div>
+                                <!-- TAB 3 -->
+                                <div>
+                                    <h4>Ubi vidisse</h4>
+                                    <p>Eram laborum philosophari si commodo eram cernantur. Expetendis a nisi quo ea laboris eruditionem. Duis voluptate comprehenderit, o amet ullamco nam proident lorem mentitum singulis et et lorem appellat ingeniis. Et elit fidelissimae, ex nisi senserit a an ipsum arbitror proident, tamen tractavissen lorem.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="unit half">
+                        <h4>Accordion</h4>
+                        <!-- ACCORDION -->
+                        <div id="accordion-container">
+                            <!-- ITEM 1 -->
+                            <div class="accordion-header"><strong><i class="cv-icon fa fa-automobile"></i> Tortor elementum</strong>
+                            </div>
+                            <div class="accordion-content">
+                                <p>Vestibulum porta, tortor elementum luctus dictum, est odio egestas justo, dapibus aliquet sem nisl vel augue. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum. Nam laoreet pulvinar eros, sit amet sodales est venenatis eu. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum.</p>
+                            </div>
+                            <!-- ITEM 2 -->
+                            <div class="accordion-header"><strong><i class="cv-icon fa fa-shopping-bag"></i> Vestibulum porta</strong>
+                            </div>
+                            <div class="accordion-content">
+                                <p>Vestibulum porta, tortor elementum luctus dictum, est odio egestas justo, dapibus aliquet sem nisl vel augue. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum. Nam laoreet pulvinar eros, sit amet sodales est venenatis eu. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum.</p>
+                            </div>
+                            <!-- ITEM 3 -->
+                            <div class="accordion-header"><strong><i class="cv-icon fa fa-coffee"></i> Consequat nunc</strong>
+                            </div>
+                            <div class="accordion-content">
+                                <p>Vestibulum porta, tortor elementum luctus dictum, est odio egestas justo, dapibus aliquet sem nisl vel augue. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum. Nam laoreet pulvinar eros, sit amet sodales est venenatis eu. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum.</p>
+                            </div>
+                            <!-- ITEM 4 -->
+                            <div class="accordion-header"><strong><i class="cv-icon fa fa-group"></i> Nunc pulvinar est</strong>
+                            </div>
+                            <div class="accordion-content">
+                                <p>Vestibulum porta, tortor elementum luctus dictum, est odio egestas justo, dapibus aliquet sem nisl vel augue. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum. Nam laoreet pulvinar eros, sit amet sodales est venenatis eu. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum.</p>
+                            </div>
+                            <!-- ITEM 5 -->
+                            <div class="accordion-header"><strong><i class="cv-icon fa fa-magic"></i> Consequat turpis</strong>
+                            </div>
+                            <div class="accordion-content">
+                                <p>Vestibulum porta, tortor elementum luctus dictum, est odio egestas justo, dapibus aliquet sem nisl vel augue. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum. Nam laoreet pulvinar eros, sit amet sodales est venenatis eu. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- GRID BORDER -->
+                <div class="grid-border"></div>
+                <!-- GRID -->
+                <div class="grid">
+                    <div class="unit half">
+                        <h4>YouTube Pretty Embed</h4>
+                        <div class="flex-video" data-pe-videoid="feOScd2HdiU" data-thumb="images/photos/480x290.png"></div>
+                    </div>
+                    <div class="unit half">
+                        <h4>Flex Video</h4>
+                        <!-- FLEX VIDEO -->
+                        <div class="flex-iframe">
+                            <iframe src="https://player.vimeo.com/video/17203320"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- FOOTER -->
+        <footer id="footer">
+            <!-- BACK TO TOP BUTTON -->
+            <div id="back-to-top" class="tooltip-gototop" title="Back to Top"></div>
+            <!-- FOOTER WIDGETS -->
+            <div id="footer-widgets" class="grid">
+                <!-- WIDGET 1 -->
+                <div class="footer-widget unit one-third">
+                    <h5>Get In Touch</h5>
+                    <p>Vidisse aut quamquam et fore probant mandaremus.</p>
+                    <p><span class="fa fa-map-marker"></span>LA street 1283 New York/US
+                    </p>
+                    <p><span class="fa fa-phone"></span>317-456-2564
+                    </p>
+                    <p><span class="fa fa-paper-plane"></span>youremail@yoursite.com
+                    </p>
+                </div>
+                <!-- WIDGET 2 -->
+                <div class="footer-widget unit one-third">
+                    <h5>Latest News</h5>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="single-post.html">Lorem Ipsum dolor mentitum</a>
+                        </li>
+                        <li>
+                            <a href="single-post.html">Nibh mauris id possumus</a>
+                        </li>
+                        <li>
+                            <a href="single-post.html">Donec in lorem mauris senserit</a>
+                        </li>
+                        <li>
+                            <a href="single-post.html">Auctor mauris loe cupidat</a>
+                        </li>
+                        <li>
+                            <a href="single-post.html">Quid ullamco firmissimum</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- WIDGET 3 -->
+                <div class="footer-widget unit one-third">
+                    <h5>Tags</h5>
+                    <!-- TAGS -->
+                    <div class="tags-container">
+                        <a class="tags" href="#">Voluptate</a>
+                        <a class="tags" href="#">Deserani</a>
+                        <a class="tags" href="#">Quo eram</a>
+                        <a class="tags" href="#">Mentitum amet sit</a>
+                        <a class="tags" href="#">Cillum</a>
+                        <a class="tags" href="#">Incurreret</a>
+                        <a class="tags" href="#">Mauris</a>
+                        <a class="tags" href="#">Admodum</a>
+                        <a class="tags" href="#">Singulis</a>
+                        <a class="tags" href="#">Quit</a>
+                        <a class="tags" href="#">Eram amet aliqua</a>
+                        <a class="tags" href="#">Auctor mauris</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info">
+                <!-- COPYRIGHT -->
+                <div class="credits">Copyright Egemenerd</div>
+                <!-- SOCIAL ICONS -->
+                <ul class="social-icons footer-social">
+                    <li>
+                        <a href="#" class="fa fa-facebook-f tooltip-pink" title="Facebook">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-twitter tooltip-pink" title="Twitter">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-google-plus tooltip-pink" title="Google Plus">Google</a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-instagram tooltip-pink" title="Instagram">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-vimeo tooltip-pink" title="Vimeo">Vimeo</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- MAIN JS FILES -->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <!-- FAKE LOADER -->
+    <script type="text/javascript" src="js/fakeloader.js"></script>
+    <!-- BACKSTRETCH (BG IMAGE, FEATURED IMAGE AND HERO IMAGE) -->
+    <script type="text/javascript" src="js/backstretch.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            "use strict";
+            jQuery('#featured-image').backstretch("images/photos/1600x900.png", {fade:500});
+            jQuery('.grid.hero').backstretch("images/photos/1600x900.png");
+        });
+    </script>
+    <!-- TABS -->
+    <script type="text/javascript" src="js/tabs.js"></script>
+    <!-- HORIZONTAL TABS -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('#horizontalTab').easyResponsiveTabs({
+                type: 'default',
+                width: 'auto',
+                fit: true,
+                activate: function () {
+                    if (jQuery(window).width() > 768) {
+                        jQuery('#horizontalTab').find(".resp-tab-content").addClass('animatedfast fadeIn');
+                        setTimeout(function () {
+                            jQuery('#horizontalTab').find(".resp-tab-content").removeClass('animatedfast fadeIn');
+                        }, 400);
+                    }
+                }
+            });
+        });
+    </script>
+    <!-- VERTICAL TABS -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('#verticalTab').easyResponsiveTabs({
+                type: 'vertical',
+                width: 'auto',
+                fit: true,
+                activate: function () {
+                    if (jQuery(window).width() > 768) {
+                        jQuery('#verticalTab').find(".resp-tab-content").addClass('animatedfast fadeIn');
+                        setTimeout(function () {
+                            jQuery('#verticalTab').find(".resp-tab-content").removeClass('animatedfast fadeIn');
+                        }, 400);
+                    }
+                }
+            });
+        });
+    </script>
+    <!-- RESPONSIVE VIDEO -->
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyembed.min.js"></script>
+    <!-- ACCORDION -->
+    <script type="text/javascript" src="js/accordion.js"></script>
+    <!-- TOOLTIPS -->
+    <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
+    <!-- CUSTOM JS -->
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
